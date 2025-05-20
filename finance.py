@@ -8,7 +8,6 @@ ticker = "AAPL"  # Apple stock
 start_date = "2010-01-01"
 end_date = "2020-01-01"
 
-# Fetch historical stock data
 data = yf.download(ticker, start=start_date, end=end_date)
 
 print(data.head())
